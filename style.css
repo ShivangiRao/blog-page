@@ -1,0 +1,359 @@
+@charset "utf-8";
+body
+{
+	margin: 0;
+	padding: 0;
+}
+@font-face
+{
+	src:  url('fonts/brown-bold.woff');
+	font-family: 'Brown Bold';
+	
+}
+
+@font-face
+{
+	src: url('fonts/brown-regular.woff');
+	font-family: 'Brown Regular';
+}
+
+@font-face
+{
+	src: url('fonts/brown-light.woff');
+	font-family: 'Brown Light';
+}
+h1
+{
+	font-size: 30px;
+	font-family: 'Brown Bold';
+}
+h2
+{
+	font-size: 30px;
+	font-family: 'Brown Regular';
+	
+}
+h3
+{
+	font-size: 18px;
+	font-family: 'Brown Regular';
+}
+.text
+{
+	font-family: 'Brown Light';
+}
+p
+{
+	font-size: 16px;
+	font-family: 'Brown Regular';
+}
+a
+{
+	text-decoration: none;
+	color: #687aba;
+}
+a:hover
+{
+	text-decoration: none;
+}
+.txtborder
+{
+	border-bottom: 1px solid #d7d7d7;
+	padding-bottom: 10px;
+}
+.postborder
+{
+	border-bottom: 1px solid #d7d7d7;
+	padding-bottom: 40px;
+	min-height: 170px;
+}
+
+.txtborder h1
+{
+	color: #586db4;
+	padding-top: 30px;
+}
+.ml
+{
+	margin-left: -15px;
+}
+.bannerimg
+{
+	
+}
+.box
+{
+	margin-top: 45px;
+	border: 1px solid #d6dae8;
+	background-color: #f9f9fa;
+	padding-bottom: 20px;
+	max-width: 552px;
+	min-height: 580px;
+	
+
+}
+.fa-clock-o
+{
+	margin-left: 10px;
+	
+}
+.box p
+{
+	color: #000000;
+	line-height: 25px;
+	padding-top: 15px;
+	padding-left: 30px;
+	padding-right: 30px;
+	
+}
+.box h2
+{
+	color: #35312d;
+	padding: 0 30px;
+}
+p .txt
+{
+	padding-top: 15px;
+}
+.latestpost
+{
+	margin-top: 45px;
+}
+
+
+
+.posttitle .Blogtext, .posttitlefirst .Blogtext
+{
+	
+	color: #8b949d;
+	line-height: 20px;
+}
+.txt
+{
+	font-size: 14px;
+}
+
+
+.textborder
+{
+	border-bottom: 1px solid #d7d7d7;
+	padding-bottom: 30px;
+}
+h3
+{
+	color: #35312d;
+}
+
+.img1
+{
+	margin-top: 30px;
+}
+.box1
+{
+	max-width: 360px;
+	border: 1px solid #d6dae8;
+	background-color: #f9f9fa;
+	padding-bottom: 25px;
+	margin-top: 45px;
+	min-height: 420px;
+}
+.box1 p
+{
+	padding-top: 20px;
+	padding-left: 20px;
+	padding-right: 20px;
+	color: #c6cacf;
+	
+}
+.box1 h3
+{
+	padding-left: 20px;
+	padding-right: 20px;
+	color: #35312d;
+	line-height: 25px;
+	
+}
+.boxshadow
+{
+	
+	
+	box-shadow: 0px 4px 23px -8px;
+	
+}
+
+.box2
+{
+	max-width: 553px;
+	border: 1px solid #d6dae8;
+	background-color: #f9f9fa;
+	padding-bottom: 10px;
+	margin-top: 45px;
+	min-height: 590px;
+}
+.box2 h2
+{
+	color: #35312d;
+	line-height: 30px;
+	padding-left: 20px;
+	padding-right: 20px;
+}
+.box2 txt
+{
+	font-size: 15px;
+	color: #35312d;
+	
+}
+.txt
+{
+	padding-top: 20px;
+	padding-left: 20px;
+	padding-right: 20px;
+}
+.text
+{
+	color: #000000;
+	padding-left: 20px;
+	padding-right: 20px;
+	line-height: 30px;
+}
+.Blogtext
+{
+	color: #000000;
+	/*padding-left: 20px;
+	padding-right: 20px;*/
+	line-height: 30px;
+}
+.post
+{
+	position: relative;
+	border-bottom: 1px solid #d7d7d7;
+	padding-bottom: 45px;
+	min-height: 92px;
+}
+.postdata
+{
+	position: relative;
+	border-bottom: 1px solid #d7d7d7;
+	padding-bottom: 45px;
+	min-height: 92px;
+}
+.Blogpost
+{
+	position: relative;
+	border-bottom: 1px solid #d7d7d7;
+	padding-bottom: 64px;
+	min-height: 92px;
+}
+.postimgfirstchild
+{
+	position: absolute;
+	top: 25px;
+	
+}
+.postimg
+{
+	position: absolute;
+	top: 5px;
+}
+.Blogpostimg
+{
+	position: absolute;
+	top: 15px;
+}
+.posttitle, .posttitlefirst
+{
+	padding-left: 155px;
+	
+}
+
+.posttitle h3
+{
+	padding-top: 15px;
+}
+.posttitlefirst h3
+{
+	padding-top: 25px;
+}
+.postimg1
+{
+	width: 140px;
+	height: 92px;
+}
+.postdata
+{
+	
+}
+
+
+
+@media (min-width: 992px) and (max-width: 1199px)
+{
+	
+	.box
+	{
+		min-height: 700px;
+	}
+	.postborder
+	{
+		min-height: 192px;
+	}
+	.post, .Blogpost
+	{
+		min-height: 200px;
+	}
+}
+@media (min-width: 768px) and (max-width: 991px)
+{
+	
+	.box
+	{
+		min-height: 815px;
+	}
+	.post, .Blogpost
+	{
+		min-height: 215px;
+	}
+	.Blogpost
+	{
+		padding-bottom: 44px;
+	}
+	span
+	{
+		display: inline-block;
+	}
+	.fa-clock-o
+	{
+		margin-left: 0px;
+	}
+}
+@media  (min-width: 320px) and (max-width:767px)
+{
+	
+	.Blogtext
+	{
+		padding-left: 0px;
+		padding-right: 0px;
+	}
+	.txtborder h1
+	{
+		text-align: center;
+	}
+	.postimgfirstchild, .postimg, .Blogpostimg
+	{
+		position: inherit;
+	}
+	.postimg, .Blogpostimg
+	{
+		margin-top: 20px;
+	}
+	.posttitlefirst, .posttitle
+	{
+		padding-left: 0px;
+	}
+	.post, .Blogpost
+	{
+		padding-bottom: 40px;
+	}
+	
+	
+}
